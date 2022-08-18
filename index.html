@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encritador</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/alura-icone.png" alt="">
+        <h1>Encritador</h1>
+    </header>
+
+    <div class="principal">
+        <div class="para_escribir">
+            <div class="area_texto1">
+                <textarea name="escribir" id="texto1" class="texto1" cols="30" rows="10" placeholder="Escriba aqui"></textarea>
+            </div>
+            <div class="mensage">
+                <p>❕ Solo letras minusculas y sin acentos.</p>
+            </div>
+            <div class="area_botones1">
+                <input type="button" value="Encriptar" id="bt1" onclick="encriptar();">
+                <input type="button" value="Desencriptar" id="bt2" onclick="desencriptar();">
+            </div>
+        </div>
+        <div class="respuesta">
+            
+            <div class="area_texto2" id="borra" class="borrar">
+                <textarea name="escribir2" class="escribir2" id="texto2" class="texto2"  cols="30" rows="10" readonly="readonly"></textarea>
+            </div>
+            <div class="area_botones2">
+                <input type="button" value="copiar" id="bt3" onclick="copiar();">
+            </div>
+        </div>
+<footer>
+        <p class="copyrigth">&copy;Copyrigth One Oracle + Alura Latan - 2022</p>
+    </footer>
+    </div>
+    
+</body>
+
+<script src="js/script.js"></script>
+</html>
+
